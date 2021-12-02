@@ -1,4 +1,5 @@
 <template>
+  <navbar />
   <slot />
 </template>
 
