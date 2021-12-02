@@ -1,5 +1,3 @@
 <template>
-  <div>
-    Never gonna give you up
-  </div>
+  Never gonna give you up
 </template>
