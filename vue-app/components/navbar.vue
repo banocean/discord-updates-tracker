@@ -1,7 +1,7 @@
 <template>
-  <nav>
-    <div class="left"><NuxtLink to="/">Home</NuxtLink></div>
-    <div class="left"><NuxtLink to="/events">Events</NuxtLink></div>
+  <nav class="navbar">
+    <div class="left"><NuxtLink class="nav-link" to="/">Home</NuxtLink></div>
+    <div class="left"><NuxtLink class="nav-link" to="/events">Events</NuxtLink></div>
     <login class="login" />
   </nav>
 </template>
@@ -12,7 +12,7 @@
     padding-right: 30px;
   }
 
-  nav {
+  .navbar {
     display: flex;
     margin: 35px 76px;
     height: 50px;
@@ -20,7 +20,7 @@
     justify-content: left;
   }
 
-  a {
+  .nav-link {
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
