@@ -1,5 +1,5 @@
 <template>
-  <a href="https://discord.com/api">
+  <a class="nav-link" href="https://discord.com/api">
     <div class="login-root">
       <img src="~/assets/discord.png" />
       <div>Login</div>
